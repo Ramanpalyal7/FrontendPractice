@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+  font-family: monospace;
+  font-weight: 600;
+}
+p {
+  font-size: large;
+}
+body {
+  margin-top: 50%;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid black;
+  width: 58%;
+  min-height: fit-content;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.mains {
+  margin-left: 12%;
+  width: 75%;
+  border-top: 2px solid rgb(0, 0, 0);
+  padding-top: 8%;
+}
+.greens {
+  color: rgb(3, 214, 3);
+}
