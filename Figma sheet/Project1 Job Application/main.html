@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8 " />
+    <meta name="viewport" content="width=device-width , initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>job application</title>
+  </head>
+  <body>
+    <main>
+      <h1>Job Application <strong class="blue"> (Web) </strong></h1>
+      <!---------------------Upper Area----------->
+      <!---------------------Section ONe-------------->
+      <div class="container">
+        <section>
+          <label for="firstname" class="heading">First Name </label
+          ><input type="text" class="set" />
+        </section>
+        <section>
+          <label for="lastname" class="heading">Last Name </label
+          ><input type="text" class="set" />
+        </section>
+      </div>
+
+      <!-----------------------Section two------------------->
+      <div class="container">
+        <section>
+          <label for="email" class="heading">Email </label>
+          <input type="text" class="set" />
+        </section>
+        <section>
+          <label for="jobrole" class="heading">Job Role</label>
+          <select name="jobroles" id="job" class="set">
+            <option value="" selected hidden>Select Job Role</option>
+            <option value="dev">Developer</option>
+            <option value="fullstackdev">Full Stack Developer</option>
+            <option value="javadev">Java Developer</option>
+            <option value="gamedev">Game Developer</option>
+            <option value="others">Others</option>
+          </select>
+        </section>
+      </div>
+
+      <!------------------------Middle Section Address -->
+
+      <div class="center">
+        <label for="address" class="heading">Address</label>
+        <textarea name="Address" id="textarea" class="setting"></textarea>
+      </div>
+      <!------------------------Ending Section area -->
+      <!-------------------------Section one -->
+      <div class="container">
+        <section>
+          <label for="city" class="heading">City</label>
+          <input type="text" class="set" />
+        </section>
+        <section>
+          <label for="Pincode" class="heading">Pincode</label>
+          <input type="text" class="set" />
+        </section>
+      </div>
+      <!-- ---------------------------Section two -->
+      <div class="container">
+        <section>
+          <label for="start" class="heading">Start Date</label>
+          <input name="date" value="12/01/2022" class="set" type="date" />
+        </section>
+        <section>
+          <label for="cv" class="heading">Upload your CV</label>
+
+          <input type="file" class="set" id="cv" />
+        </section>
+      </div>
+      <div class="buttons">
+        <button type="submit">Apply Now</button>
+      </div>
+    </main>
+  </body>
+</html>
