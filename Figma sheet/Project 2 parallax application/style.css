@@ -15,7 +15,7 @@
 img {
   width: 99vw;
   height: 100vh;
-  overflow: scroll;
+  /* overflow: scroll; */
 }
 .dav {
   width: 80vw;
@@ -43,11 +43,11 @@ img {
 
 .drop {
   width: 99vw;
-  height: 50vh;
+  height: 280px;
 }
 
 section {
-  width: 100vw;
+  width: 99vw;
   background-color: #313534;
   color: white;
 }
