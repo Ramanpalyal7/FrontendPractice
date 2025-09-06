@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(255, 148, 148);
+}
+section {
+  height: 180px;
+  width: 130px;
+}
+.box {
+  height: 80px;
+  width: 40px;
+  border: 2px solid black;
+}
+@media not screen and (min-width: 250px) and (max-width: 300px) {
+  body {
+    background-color: rgb(170, 170, 253);
+  }
+  section {
+    display: flex;
+    margin: 1em 2em;
+  }
+  .box {
+    margin: 12px 22px;
+  }
+}
