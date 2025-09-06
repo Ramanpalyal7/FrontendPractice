@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/*---------------------------TASK 1---------------------- */
+.heading {
+  color: rgb(42, 42, 42);
+  text-align: center;
+  margin: 1em;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: aquamarine;
+  height: 60px;
+}
+ul li {
+  font-size: x-large;
+  text-align: center;
+  background-color: #5781aa;
+  color: white;
+  height: 2em;
+  width: 6em;
+  border-radius: 6px;
+  border: 2px solid rgb(0, 82, 122);
+  padding: 5px 3px;
+}
+nav a:link,
+nav a:visited {
+  color: white;
+  text-decoration: none;
+}
+#home {
+  width: 4em;
+  height: 2em;
+  text-align: center;
+}
+#products {
+  width: 6.5em;
+}
+#about {
+  width: 5em;
+}
+
+/*-------------------------------TASK 2------------------------ */
+main {
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+  color: white;
+}
+main div {
+  border-radius: 5px;
+  border: 3px solid rgb(0, 208, 255);
+  max-width: 400px;
+  min-height: 380px;
+  background-color: #5f8dba;
+  padding: 12px;
+  margin: 8px 1px;
+}
+#first {
+  width: 370px;
+}
+
+/*--------------------------------TASK 3------------------- */
+section {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid black;
+}
+
+section div {
+  border-radius: 6px;
+  text-align: center;
+  font-size: xx-large;
+  padding: 8px;
+  color: white;
+  border: 3px solid rgb(0, 208, 255);
+  background-color: #5f8dba;
+  min-width: 150px;
+  min-height: 120px;
+  margin: 6px 8px;
+  flex-shrink: 2;
+}
